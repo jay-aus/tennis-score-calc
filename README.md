@@ -51,7 +51,8 @@ To configure the Tennis Score Calculator, set the file path in the .env file to 
 
 # TO DO
 Unit test cases
+Additional conditions to show match in progress?
 
 # Assumption/Questions
-
-1. As per the details in README_ORIGINAL.md provided with the problem statement; the 
+Per the original readme sample data; A wins 2 games but still wins the match 2 sets to 0
+Assuming it is a mistake??; this should be a match in progress scenario? Currently a set is 6 games won by a player
