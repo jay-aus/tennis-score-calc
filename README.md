@@ -22,7 +22,7 @@ Eg:
 1. TennisScoreCalculator('Games Player Person A'); // Output: 23 17
 2. TennisScoreCalculator('Score Match 02'); // Output: Person C defeated Person A \n 2 sets to 1
 
-You can do a npm run start to execute the command.
+You can do a **npm run start** to execute the command.
 If you wish to change the input text; you can do so. Save it and execute npm run start
 
 Test file is located in src/test/test.txt
