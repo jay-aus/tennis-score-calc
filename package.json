@@ -3,6 +3,11 @@
     "dotenv": "^16.3.1"
   },
   "scripts": {
-    "start": "node src/printScore.js"
+    "start": "node src/test.js",
+    "test": "npx jest src/test/printScore.test.js ",
+    "test1": "npx jest src/test/validate.test.js "
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }

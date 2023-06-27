@@ -10,7 +10,7 @@ require('dotenv').config();
 function TennisScoreCalculator(inputString) {
   //Step 1 - Validate input text
   const { statsType, statsTypeValue } = validateInputString(inputString);
-
+  
   //Step 2 - Read the test file data
   const filePath = process.env.FILEPATH; // Set the file path here
   const fileData = getRawFileData(filePath);
@@ -259,5 +259,10 @@ function printFinalResult(score, statsType) {
   }
 }
 
-TennisScoreCalculator('Games Player Person A'); //  23 17
-TennisScoreCalculator('Score Match 02'); // Person C defeated Person A \n 2 sets to 1
+module.exports = {
+  TennisScoreCalculator,
+  getRawFileData,
+  getRefineFileData,
+  calculateMatchAndGameStats ,
+  matchStatistics
+};
